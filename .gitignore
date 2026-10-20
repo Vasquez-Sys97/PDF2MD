@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# Local data and generated output
+data/
+output/
+*.pdf
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.ods
+*.doc
+*.docx
+*.ppt
+*.pptx
+
+# Secrets and certificates
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local tools and operating system files
+.vscode/
+.idea/
+*.lnk
+*.url
+desktop.ini
+Thumbs.db
